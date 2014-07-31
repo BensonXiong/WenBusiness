@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+    <title>WenBusiness</title>
+    <style type="text/css">
+         /**
+         * Example of an initial loading indicator.
+         * It is recommended to keep this as minimal as possible to provide instant feedback
+         * while other resources are still being loaded for the first time
+         */
+        html, body {
+           
+        }
+
+
+        @-webkit-keyframes appLoadingIndicator{
+            0% {
+                opacity: 0.8
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0.8
+            }
+        }
+        @media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){
+.foot>div{ margin:0 auto; width:16%; height:70px; text-align:center; display:inline-block;}
+.foot>div.home{ width:18%; display:inline-block;}
+}
+    </style>
+    <!-- The line below must be kept intact for Sencha Command to build your application -->
+    <script id="microloader" type="text/javascript" src=".sencha/app/microloader/development.js"></script>
+<script type="text/javascript">
+var screenWidth = window.innerWidth;
+            var screenHeight = window.innerHeight;
+            var screenCutBarHeight = screenHeight -130;
+         var addToHomeConfig = {
+        pageType: 'channel_home',
+        lifespan: 10000,
+        touchIcon: true,
+        animationIn: 'bubble',
+        expire: 15*24*60
+   };
+
+</script>
+
+</head>
+<body>
+    <div id="appLoadingIndicator">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+  <tpl for=".">
+  <div class="project">
+        <div class="left f-fl"><h3>{projname}</h3>
+          <tpl for="userinfo">
+          <img src="./resources/images/head.jpg">
+          <span>{nick}</span>
+          </tpl>
+      </div>
+      <div class="right f-fr"><img src={img}></div>
+        <div class="clr"></div>
+      <h4>{projdescription}</h4>
+      <div class="bottom">
+      <div class="mb15"></div>
+        <ul>
+          <li><i class="com_icon"></i><em>完成{[this.finishPercentage(values)]}</em></li>
+            <li><i class="need_icon"></i><em>需{funds}万</em></li>
+            <li><i class="sur_icon"></i><em>余{day}天</em></li>
+        </ul>
+      </div>
+    </div>
+</tpl>
