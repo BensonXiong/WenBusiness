@@ -6,7 +6,7 @@ Ext.define('WenBusiness.view.Information.InformationList',{
 	config: {
 		id: config.viewIdList.InformationListViewId,
 		styleHtmlContent: true,
-		styleHtmlCls:'viewBoxContent',
+		styleHtmlCls:'',
              layout:'fit',
 		items:[
 		  {

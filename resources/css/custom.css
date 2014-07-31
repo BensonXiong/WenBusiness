@@ -351,6 +351,11 @@ height:22px;
 	background: #f8f8f8;
 }
 
+.listMarginBottomCls
+{
+	margin-bottom:50px;
+}
+
 /*exception for the button*/
 .f-btn-green
 {
@@ -445,6 +450,11 @@ height:22px;
 }
 .tabRight:before {
  content:"7";
+}
+
+.rotatingCarouselCls
+{
+	height:8em;
 }
 
 

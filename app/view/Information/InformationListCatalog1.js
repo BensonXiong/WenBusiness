@@ -9,17 +9,17 @@ Ext.define('WenBusiness.view.Information.InformationListCatalog1',{
 		id: config.viewIdList.InformationListCatalog1ViewId,
 		styleHtmlContent: true,
 		 variableHeights: true,
-
+          cls:'listMarginBottomCls',
             useSimpleItems: true,
             store:'InformationList',
-		styleHtmlCls:'viewBoxContent',
+		styleHtmlCls:'',
     items:[
     {
             xtype: 'rotatingCarousel',
             //跟随滚动条滚动
             scrollDock: 'top',
             docked: 'top',
-            height: '80px',
+            cls:'rotatingCarouselCls',
             store:'InforListCata1ImageCarousel',
             listeners:
             {
@@ -32,7 +32,7 @@ Ext.define('WenBusiness.view.Information.InformationListCatalog1',{
                 for (var i=0,totalItem=store.getCount();i<totalItem;i++){
                     view.add({
                         data: store.getAt(i).data,
-                        tpl: '<tpl for "."><div><img height="40%" src={img}></div>'+
+                        tpl: '<tpl for "."><div><img  src={img}></div>'+
                         '<div class="title">{title}</div>'+'</tpl>',
                     });
                 }

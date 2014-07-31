@@ -10,6 +10,7 @@ Ext.define('WenBusiness.view.Information.InformationListCatalog2',{
 		styleHtmlContent: true,
 		 variableHeights: true,
             useSimpleItems: true,
-		styleHtmlCls:'viewBoxContent',
+              cls:'listMarginBottomCls',
+		styleHtmlCls:'',
 	}	
 });

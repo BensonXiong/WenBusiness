@@ -264,7 +264,7 @@ Ext.application({
        config.password = localStorage.getItem('password');
     if (!config.username && ! config.password) {
           Ext.Viewport.add({
-            xtype: 'Main'
+            xtype: 'LoginMain'
           });
         } else {
           Ext.Viewport.add({
