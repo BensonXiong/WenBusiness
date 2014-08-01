@@ -20,7 +20,7 @@ Ext.define('WenBusiness.view.Society.FriendSociety',{
                 xtype: 'titlebar',
                 ui:'customplain',
                 docked: 'top',         
-                title: '友社',  
+                title: '人脉',  
                 items: [
                    {
                         xtype: 'button',                     
