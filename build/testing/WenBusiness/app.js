@@ -71590,7 +71590,7 @@ Ext.define('WenBusiness.view.Item.ItemList',{
                         allowDepress: false,
                         items: [
         {
-            text: '筹资中',
+            text: '进行中',
             ui:'custom',
             pressed: true
         },
@@ -73047,7 +73047,7 @@ Ext.define('WenBusiness.controller.Item.ItemList',{
 		if( isPressed == true )
 		{
 			var view =segmentedButton.up('dataview');
-			if ( button.getText() == "筹资中")
+			if ( button.getText() == "进行中")
 			{
 
               var itemListFinishedView = Ext.getCmp(config.viewIdList.ItemListFinishedViewId);

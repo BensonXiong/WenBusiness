@@ -50,7 +50,7 @@ Ext.define('WenBusiness.view.Item.ItemList',{
                         allowDepress: false,
                         items: [
         {
-            text: '筹资中',
+            text: '进行中',
             ui:'custom',
             pressed: true
         },

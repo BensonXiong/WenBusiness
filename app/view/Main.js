@@ -26,7 +26,7 @@ Ext.define('WenBusiness.view.Main', {
             },
             {
                 xtype:'FriendSociety',
-                title: '友社',
+                title: '人脉',
                 iconCls: 'fri_icon',
             },
              {

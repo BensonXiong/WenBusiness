@@ -490,7 +490,7 @@ i,cite,em,var,address,dfn{font-style:normal;}
 [hidefocus],summary{outline:0;}
 ul,li{list-style:none;}
 a,a:hover{text-decoration: none; cursor:pointer;}
-input[type=checkbox]{border:1px solid #c79b5b;width:auto;display: inline;widht:14px;height:14px;}
+input[type=checkbox]{border:1px solid #c79b5b;width:auto;display: inline;width:14px;height:14px;}
 /*通用 样式*/
 .f-fl{float: left;}
 .f-fr{float:right;}
@@ -681,7 +681,7 @@ textarea{border:1px solid #ebebeb;box-shadow:0px 0px 3px #e8e8e8;height: 100px;}
 .res-btn{position:absolute;width:100%;bottom:30px;}
 .res-btn a{display:block; margin:0 15px 15px;height: 40px; line-height: 40px;background: #aaa;border:2px solid #fff;filter:alpha(opacity=50);-moz-opacity:0.5; opacity:0.5;}
 .login_txt,.res_txt{position: absolute;top:11px;width:100%;color:#fff; text-align: center;font-size: 18px;}
-.res_txt{top:71px;}
+.res_txt{top:66px;}
 .res-opt{margin:40px 15px 20px;}
 .res-opt h3{margin:0 0 15px;}
 .opt-btn a{display:block;margin:0 15px 15px; line-height: 54px;}
